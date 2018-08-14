@@ -19,3 +19,9 @@
 <text selectable="true">555</text>
 ```
 text标签加上selectable属性可实现长按复制文本的功能
+
+
+| Article | Article |
+| --------- | --------- |
+|[Javascript深浅拷贝](https://github.com/Wscats/Good-text-Share/issues/57)|[Javascript中的apply和call继承](https://github.com/Wscats/Good-text-Share/issues/56)|
+|[前端程序员经常忽视的一个JavaScript面试题](https://github.com/Wscats/Good-text-Share/issues/85)|[我如何用前端技术得到XXOO网站的VIP](https://github.com/Wscats/Good-text-Share/issues/62)|
