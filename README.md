@@ -10,7 +10,8 @@
 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 
 |  weixin  |   weixin   |  weixin   |
-| ---------- | :-----------:  | :-----------: |
+| ---------- | -----------  | ----------- |
+| [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) | [wepy](https://tencent.github.io/wepy/) | [mpvue文档](http://mpvue.com/) |
 | [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html) | [wepy](https://tencent.github.io/wepy/) | [mpvue文档](http://mpvue.com/) |
 
 #### 长按复制文本
