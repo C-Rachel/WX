@@ -16,3 +16,31 @@
 <text selectable="true">555</text>
 ```
 text标签加上selectable属性可实现长按复制文本的功能
+
+#### 小程序的data与vue的data
+二者的data都是用来初始化数据,但是在拿这些变量时又略有不同（原理了解不透彻，只能了解到可见的不同）
+<br />
+以下小程序打印`qqq变量`
+```
+Page({
+  data: {
+    qqq: '555'
+  },
+  onLoad: function () {
+    console.log(this.data.qqq)
+  },
+})
+```
+以下是vue打印`qqq变量`
+```
+new Vue({
+	el: '#appppp',
+	data: {
+		qqq: '333'
+	},
+	created: function(){
+		console.log(this.qqq)
+	}
+})
+```
+但是在页面上使用`qqq`时都为`{{qqq}}`
