@@ -82,11 +82,10 @@ new Vue({
 默认页面为app.json pages里的第一条，如若想默认页面为about把对应的`"pages/about/index"`写在最前即可（开发非首页相关页面看效果时可以用到）
 
 #### 跳转页面
-想要设置页面跳转，首先要在app.json的pages里配置对应跳转的url，否则就会获得一个报错  
+想要设置页面跳转，首先要在app.json的pages里配置对应跳转的url，否则就会获得一个报错 
 ```
 navigateTo:fail page "pages/xxx" is not found
 ```
-<br />
 实现页面跳转可使用组件`navigator` [navigator对应文档](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html)
 <br />
 `navigator`可包裹button使用
