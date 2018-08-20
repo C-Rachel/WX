@@ -46,7 +46,7 @@ new Vue({
 但是在页面上使用`qqq`时都为`{{qqq}}`
 
 ### 关于app.json
-`app.json配置`[对应文档](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html)
+[app.json对应文档](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html)
 `app.json`文件用来对微信小程序进行全局配置，决定页面文件的路径、窗口表现、设置网络超时时间、设置多`tab`等。
 一般项目开发目录如下（一般初始pages里有index和logs）：
 ```
