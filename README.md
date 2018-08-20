@@ -83,6 +83,7 @@ new Vue({
 
 #### 跳转页面
 想要设置页面跳转，首先要在app.json的pages里配置对应跳转的url，否则就会获得一个报错  `navigateTo:fail page "pages/xxx" is not found`
+<br />
 实现页面跳转可使用组件`navigator` [navigator对应文档](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html)
 <br />
 `navigator`可包裹button使用
