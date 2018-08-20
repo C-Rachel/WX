@@ -88,7 +88,7 @@ new Vue({
 `navigator`可包裹button使用
 ```
 <navigator url='../index/index'>
-	<button class='button-box'>返回主頁</button>
+  <button class='button-box'>返回主頁</button>
 </navigator>
 ```
 
