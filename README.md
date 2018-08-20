@@ -86,7 +86,7 @@ new Vue({
 ```
 navigateTo:fail page "pages/xxx" is not found
 ```
-实现页面跳转可使用组件`navigator` [navigator对应文档](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html)
+实现页面跳转可使用组件`navigator` [对应文档](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html)
 <br />
 `navigator`可包裹button使用
 ```
