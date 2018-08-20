@@ -46,5 +46,47 @@ new Vue({
 但是在页面上使用`qqq`时都为`{{qqq}}`
 
 ### 关于app.json【切换页面（分页）】
+一般项目开发目录如下（一般初始pages里有index和logs）：
+```
+├── app.js
+├── app.json
+├── app.wxss
+├── pages
+│   │── index
+│   │   ├── index.wxml
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   └── index.wxss
+│   │── about
+│   │   ├── index.wxml
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   └── index.wxss
+│   └── logs
+│       ├── log.wxml
+│       └── log.js
+└── utils
+```
+对应开发目录来看app.json里的pages如下：
+```
+{
+  "pages":[    
+    "pages/index/index",
+    "pages/about/index",
+    "pages/logs/logs"
+  ]
+}
+```
+默认页面为app.json pages里的第一条，如若想默认页面为about把对应的`"pages/about/index"`写在最前即可（开发非首页相关页面看效果时可以用到）
 
+#### 跳转页面
+想要设置页面跳转，首先要在app.json的pages里配置对应跳转的url，否则就会获得一个报错  `navigateTo:fail page "pages/xxx" is not found`
+实现页面跳转可使用组件`navigator` [navigator对应文档](https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html)
+<br />
+`navigator`可包裹button使用
+```
+<navigator url='../index/index'>
+	<button class='button-box'>返回主頁</button>
+</navigator>
+```
 
