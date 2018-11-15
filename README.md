@@ -95,3 +95,7 @@ navigateTo:fail page "pages/xxx" is not found
 </navigator>
 ```
 
+### 关于request不合法
+在做request请求时，可能会遇到问题如下：
+<br />
+<img src="image/err.jpg" />
