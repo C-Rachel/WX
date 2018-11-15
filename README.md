@@ -98,4 +98,14 @@ navigateTo:fail page "pages/xxx" is not found
 ### 关于request不合法
 在做request请求时，可能会遇到问题如下：
 <br />
+<br />
 <img src="image/err.jpg" />
+<br />
+<br />
+这时候在开发者工具导航找到 工具 => 项目详情
+<br />
+<br />
+<img src="image/https.jpg" />
+<br />
+<br />
+将最后一栏：``不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书``给勾上，再次做request请求即可解决这个问题。
