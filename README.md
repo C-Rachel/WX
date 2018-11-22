@@ -109,3 +109,38 @@ navigateTo:fail page "pages/xxx" is not found
 <br />
 <br />
 将最后一栏：``不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书``给勾上，再次做request请求即可解决这个问题。
+
+#### 微信小程序读取本地数据
+使用本地数据做测试，可以在``utils``文件下新建一个js文件，把本地数据写进去，即可在项目中读取本地数据。
+<br />
+新建 data.js ：
+```
+function data(){
+	var res = {
+		list: [
+			{
+				"name": "hhhh",
+				"id": "6666"
+			},
+			{
+				"name": "xxxx",
+				"id": "7777"
+			}
+		]
+	}
+	return res
+}
+
+module.exports = {
+  data: data
+} 
+```
+然后在页面js中引入使用：
+```
+var getData = require('../../utils/data.js')  
+Page({   
+  data: {    
+    showData: getData.data().list,   
+  },  
+}) 
+```
