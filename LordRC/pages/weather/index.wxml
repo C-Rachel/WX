@@ -1,3 +1,4 @@
+<!-- 请求数据来源于网络 侵删 -->
 <view class='content'>
   <view class='title-text'>TODAY WEATHER</view>
   <view>
@@ -26,4 +27,10 @@
   <view class='temp-box'>~</view>
   <view class='temp-box'>{{arrs.yestoday.tempMax}}℃</view>
 </view>
+<view class="weui-cells weui-cells_after-title my-input">
+  <view class="weui-cell">
+    <input class="weui-inputt" bindinput="bindKeyInput" placeholder="城市"/>   
+  </view>  
+</view>
+<button class='my-input' style='background-color:#fff;color:#666;' bindtap='getSearch'>Search</button>
 
