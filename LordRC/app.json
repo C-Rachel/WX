@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/weather/index",
+    "pages/index/index",
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#36ab60",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "images/icons_index.png",
+        "selectedIconPath": "images/index_active.png"
+      },
+      {
+        "pagePath": "pages/weather/index",
+        "text": "weather",
+        "iconPath": "images/icons_ViewGallery.png",
+        "selectedIconPath": "images/ViewGallery_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "images/icons_crm.png",
+        "selectedIconPath": "images/crm_active.png"
+      }
+    ]
+  }
+}

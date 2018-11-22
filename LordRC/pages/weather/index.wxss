@@ -1,0 +1,27 @@
+.content {
+  width: 100%;
+  background-color: #FFBF00;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.title-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.content.con2 {
+  background-color: #A5DF00;
+}
+
+.temp-box {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 1.6rem;
+}
+
+.timeCity {
+  display: inline-block;
+  margin: 0 5px;
+}

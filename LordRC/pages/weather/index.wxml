@@ -1,0 +1,29 @@
+<view class='content'>
+  <view class='title-text'>TODAY WEATHER</view>
+  <view>
+    <view class='timeCity'>{{arrs.today.date}}</view>
+    <view class='timeCity'>{{arrs.aqi.city}}</view>
+  </view> 
+  <view>
+    <view style='display:inline-block;margin-right:10px;'>{{arrs.today.weatherStart}}</view>
+    <view style='display:inline-block'>{{arrs.today.windDirectionStart}}</view>
+  </view>
+  <view class='temp-box'>{{arrs.today.tempMin}}℃</view>
+  <view class='temp-box'>~</view>
+  <view class='temp-box'>{{arrs.today.tempMax}}℃</view>
+</view>
+<view class='content con2'>
+  <view class='title-text'>YESTODAY WEATHER</view>
+  <view>
+    <view class='timeCity'>{{arrs.yestoday.date}}</view>
+    <view class='timeCity'>{{arrs.aqi.city}}</view>
+  </view>
+  <view>
+    <view style='display:inline-block;margin-right:10px;'>{{arrs.today.weatherStart}}</view>
+    <view style='display:inline-block'>{{arrs.today.windDirectionStart}}</view>
+  </view>
+  <view class='temp-box'>{{arrs.yestoday.tempMin}}℃</view>
+  <view class='temp-box'>~</view>
+  <view class='temp-box'>{{arrs.yestoday.tempMax}}℃</view>
+</view>
+
