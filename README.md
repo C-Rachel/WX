@@ -116,19 +116,19 @@ navigateTo:fail page "pages/xxx" is not found
 新建 data.js ：
 ```
 function data(){
-	var res = {
-		list: [
-			{
-				"name": "hhhh",
-				"id": "6666"
-			},
-			{
-				"name": "xxxx",
-				"id": "7777"
-			}
-		]
+  var res = {
+    list: [
+	{
+	"name": "hhhh",
+	"id": "6666"
+	},
+	{
+	"name": "xxxx",
+	"id": "7777"
 	}
-	return res
+    ]
+  }
+  return res
 }
 
 module.exports = {
